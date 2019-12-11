@@ -4,7 +4,7 @@
         ${msg("loginTitle",(realm.displayName!''))}
     <#elseif section = "header">
         <link href="https://fonts.googleapis.com/css?family=Muli" rel="stylesheet"/>
-        <link href="${url.resourcesPath}/img/fpt-favicon.svg" rel="icon"/>
+        <link href="${url.resourcesPath}/img/logo.svg" rel="icon"/>
         <script>
             function togglePassword() {
                 var x = document.getElementById("password");
@@ -20,7 +20,7 @@
         </script>
     <#elseif section = "form">
         <div>
-            <img class="logo" src="${url.resourcesPath}/img/akasafe.png" alt="Akasafe">
+            <img class="logo" src="${url.resourcesPath}/img/logo.svg" alt="Akasafe">
         </div>
         <div class="box-container">
             <div>
