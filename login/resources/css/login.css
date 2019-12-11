@@ -37,6 +37,7 @@ body {
   margin-left: auto;
   margin-right: auto;
   margin-top: 30px;
+  width:130px;
 }
 .login-content .box .application-name {
   width: 270px;
@@ -97,6 +98,7 @@ body {
   border-style: none;
   margin-top: 60px;
   margin-bottom: 60px;
+  cursor:pointer;
 }
 .login-content .box .visibility {
   position: relative;
@@ -114,6 +116,10 @@ body {
   opacity: .54;
   position: relative;
   top: 50px;
+  color: #fff;
+}
+img#vi:hover{
+	cursor:pointer;
 }
 .message-text {
   width: 322px;
