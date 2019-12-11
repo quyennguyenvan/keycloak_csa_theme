@@ -20,11 +20,11 @@
         </script>
     <#elseif section = "form">
         <div>
-            <img class="logo" src="${url.resourcesPath}/img/akasafe.png" alt="Alfresco">
+            <img class="logo" src="${url.resourcesPath}/img/akasafe.png" alt="Akasafe">
         </div>
         <div class="box-container">
             <div>
-                <p class="application-name">Alfresco Identity Service</p>
+                <p class="application-name">Akasafe Identity Service</p>
             </div>
         <#if realm.password>
             <div>
