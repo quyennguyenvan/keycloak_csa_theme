@@ -29,6 +29,16 @@ body {
   margin: 0 auto;
   height: 520px;
 }
+.box-sologan {
+  width: 100%;
+  padding: 10px 0;
+  margin: 0 auto;
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
 .img-box {
   width: 30%;
   float: left;
@@ -36,6 +46,14 @@ body {
 .project-name {
   width: 70%;
   float: right;
+}
+span.isdiviser {
+  width: 50%;
+  clear: both;
+  float: left;
+  display: flex;
+  height: 1px;
+  background: #ccc;
 }
 .login-content .box .box-container {
   width:100%;
@@ -45,22 +63,22 @@ body {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 30px;
   width:130px;
 }
 .login-content .box .application-name {
-  width: 270px;
+  /* width: 270px; */
   font-family: Muli;
   font-size: 24px;
-  font-weight: 600;
+  font-weight: 500;
   font-style: normal;
   font-stretch: normal;
   line-height: 0.83;
   letter-spacing: -0.4px;
   text-align: left;
-  color: #1976d2;
-  margin-left: 32px;
-  margin-top: 40px;
+  color: #000;
+  clear: both;
+  float: left;
+  padding: 10px 0;
 }
 .login-content .box .form {
   margin-left: 32px;
