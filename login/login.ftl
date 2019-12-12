@@ -24,7 +24,7 @@
         </div>
         <div class="box-container">
             <div>
-                <p class="application-name">Akasafe Identity Service</p>
+                <p class="application-name">akaSAFE Identity Service</p>
             </div>
         <#if realm.password>
             <div>
@@ -33,7 +33,29 @@
                     <div>
                         <label class="visibility" id="v" onclick="togglePassword()"><img id="vi" src="${url.resourcesPath}/img/eye-off.png"></label>
                     </div>
-                <input id="password" class="login-field" placeholder="${msg("password")}" type="password" name="password" tabindex="2">
+					<input id="password" class="login-field" placeholder="${msg("password")}" type="password" name="password" tabindex="2">
+				
+					<div class="${properties.kcFormGroupClass!} ${properties.kcFormSettingClass!}">
+						<div id="kc-form-options">
+							<#if realm.rememberMe && !usernameEditDisabled??>
+								<div class="checkbox">
+									<label>
+										<#if login.rememberMe??>
+											<input tabindex="3" id="rememberMe" name="rememberMe" type="checkbox" checked> ${msg("rememberMe")}
+										<#else>
+											<input tabindex="3" id="rememberMe" name="rememberMe" type="checkbox"> ${msg("rememberMe")}
+										</#if>
+									</label>
+								</div>
+							</#if>
+							</div>
+						<div class="${properties.kcFormOptionsWrapperClass!}">
+							<#if realm.resetPasswordAllowed>
+								<span><a tabindex="5" href="${url.loginResetCredentialsUrl}">${msg("doForgotPassword")}</a></span>
+							</#if>
+						</div>
+					</div>
+
                 <input class="submit" type="submit" value="${msg("doLogIn")}" tabindex="3">
                 </form>
             </div>
@@ -46,6 +68,11 @@
                 </#list>
             </div>
         </#if>
+		<#if realm.password && realm.registrationAllowed && !usernameEditDisabled??>
+			<div id="kc-registration">
+				<span>${msg("noAccount")} <a tabindex="6" href="${url.registrationUrl}">${msg("doRegister")}</a></span>
+			</div>
+		</#if>
         <div>
             <p class="copyright">&copy; ${msg("copyright", "${.now?string('yyyy')}")}</p>
         </div>
