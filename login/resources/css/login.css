@@ -28,7 +28,8 @@ body {
   width: 410px;
   border-radius: 8px;
   background-color: #ffffff;
-  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.24), 0 0 2px 0 rgba(0, 0, 0, 0.12);
+  /*box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.24), 0 0 2px 0 rgba(0, 0, 0, 0.12);*/
+  box-shadow: -2px 1px 12px 12px rgba(20, 20, 21, 0.61);
   margin: 0 auto;
   height: auto;
 }
@@ -101,12 +102,9 @@ div#kc-registration {
   padding-top: 10px;
 }
 .form-group.login-pf-settings {
-  display: flex;
-  justify-content: space-between;
-  align-content: space-between;
-  align-items: center;
-  padding-top: 10px;
-  text-align: center;
+  float: left;
+  padding: 0;
+  margin-top: 10px;
 }
 .login-content .box .form {
   margin-left: 32px;
@@ -139,7 +137,7 @@ div#kc-registration {
 .login-content .box .submit{
   width: 90%;
   height: 36px;
-  border-radius: 2px;
+  border-radius: 3px;
   background-color: #1e39ab;
   font-family: Muli;
   font-size: 14px;
@@ -150,6 +148,26 @@ div#kc-registration {
   letter-spacing: normal;
   text-align: center;
   color: #fff;
+  border-style: none;
+  margin-top: 60px;
+  margin-bottom: 60px;
+  cursor: pointer;
+}
+.login-pf-settings .btn {
+  width: 100%;
+  margin-top: 10px;
+  height: 35px;
+  color: #FFF;
+  border-radius: 3px;
+  background-color: #1e39ab;
+  font-family: Muli;
+  font-size: 14px;
+  font-weight: 700;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
   border-style: none;
   margin-top: 60px;
   margin-bottom: 60px;
@@ -239,4 +257,29 @@ img#vi:hover{
   font-family: Muli;
   font-size: 14px;
   margin-left: 30px;
+}
+
+pre {
+  position: absolute;
+  top: 26%;
+  display: block;
+  color: #000;
+  font-weight: 700;
+  right: 43%;
+  font-size: 28px;
+}
+#kc-reset-password-form {
+  height: 330px;
+  margin: 0 auto;
+  padding: 10px 20px;
+}
+#kc-reset-password-form .form-group{
+    margin-top: 95px;
+    width: 100%;
+    clear: both;
+}
+input#username {
+  width: 100%;
+  height: 20px;
+  margin-top: 5px;
 }
