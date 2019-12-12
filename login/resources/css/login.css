@@ -16,7 +16,7 @@ body {
   background-size:cover;
   background-position:center;
   min-height: 100%;
-  min-width: 320px;
+  min-width: 90%;
   display:flex;
   justify-content:center;
   flex-direction:column
@@ -90,13 +90,28 @@ span.isdiviser {
   float: left;
   padding: 10px 0;
 }
+div#kc-registration {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  padding-top: 10px;
+}
+.form-group.login-pf-settings {
+  display: flex;
+  justify-content: space-between;
+  align-content: space-between;
+  align-items: center;
+  padding-top: 10px;
+  text-align: center;
+}
 .login-content .box .form {
   margin-left: 32px;
   margin-top: 55px;
   margin-bottom: -55px;
 }
 .login-content .box .login-field {
-  width: 320px;
+  width: 90%;
   height: 24px;
   font-family: Muli;
   font-size: 14px;
@@ -119,23 +134,23 @@ span.isdiviser {
   box-shadow: 0 0 0px 1000px white inset;
 }
 .login-content .box .submit{
-  width: 320px;
+  width: 90%;
   height: 36px;
   border-radius: 2px;
   background-color: #ff9800;
   font-family: Muli;
   font-size: 14px;
-  font-weight: bold;
+  font-weight: 700;
   font-style: normal;
   font-stretch: normal;
   line-height: normal;
   letter-spacing: normal;
   text-align: center;
-  color: #ffffff;
+  color: #fff;
   border-style: none;
   margin-top: 60px;
   margin-bottom: 60px;
-  cursor:pointer;
+  cursor: pointer;
 }
 .login-content .box .visibility {
   position: relative;
@@ -147,7 +162,7 @@ span.isdiviser {
   border: none;
 }
 .login-content .box .copyright {
-  min-width: 320px;
+  min-width: 90%;
   text-align: center;
   font-size: 14px;
   opacity: .54;
@@ -194,7 +209,7 @@ img#vi:hover{
 }
 
 .login-content .box .social-link-style {
-  width: 320px;
+  width: 90%;
   height: 36px;
   border-radius: 2px;
   background-color: var(--white);
