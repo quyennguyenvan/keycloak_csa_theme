@@ -127,7 +127,7 @@ div#kc-registration {
   background-color: #fff;
 }
 .login-content .box input[type="text"]:focus, .login-content .box input[type="password"]:focus {
-  border-bottom: 2px solid #ff9800;
+  border-bottom: 2px solid #1e39ab;
 }
 .login-content .box input[type="text"]:-webkit-autofill, .login-content .box input[type="password"]:-webkit-autofill
 {
@@ -137,7 +137,7 @@ div#kc-registration {
   width: 90%;
   height: 36px;
   border-radius: 2px;
-  background-color: #ff9800;
+  background-color: #1e39ab;
   font-family: Muli;
   font-size: 14px;
   font-weight: 700;
@@ -160,6 +160,9 @@ div#kc-registration {
   height: 24px;
   opacity: 0.54;
   border: none;
+}
+.forgotPassword {
+  margin-right: 35px;
 }
 .login-content .box .copyright {
   min-width: 90%;
