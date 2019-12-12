@@ -22,11 +22,20 @@ body {
   flex-direction:column
 }
 .login-content .box {
-  width: 448px;
+  width: 410px;
   border-radius: 8px;
   background-color: #ffffff;
   box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.24), 0 0 2px 0 rgba(0, 0, 0, 0.12);
-  margin: auto;
+  margin: 0 auto;
+  height: 520px;
+}
+.img-box {
+  width: 30%;
+  float: left;
+}
+.project-name {
+  width: 70%;
+  float: right;
 }
 .login-content .box .box-container {
   width:100%;
