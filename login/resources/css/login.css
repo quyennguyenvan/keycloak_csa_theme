@@ -12,6 +12,9 @@ body, html {
 body {
   margin: 0
 }
+*{
+  font-family: Muli !important;
+}
 .login-content {
   background-size:cover;
   background-position:center;

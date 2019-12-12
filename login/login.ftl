@@ -21,7 +21,7 @@
     <#elseif section = "form">
 		<div class="box-sologan">
 			<div class="img-box">
-				<img class="logo" src="${url.resourcesPath}/img/logo.svg" alt="Akasafe">
+				<img class="logo" src="${url.resourcesPath}/img/logo.png" alt="Akasafe">
 			</div>
 			<div class="project-name">
 				<span class="application-name">aka<span class="safe-title">SAFE</span></span>
