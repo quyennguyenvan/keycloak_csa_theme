@@ -20,10 +20,10 @@
         </script>
     <#elseif section = "form">
 		<div class="box-sologan">
-			<div>
+			<div class="img-box">
 				<img class="logo" src="${url.resourcesPath}/img/logo.svg" alt="Akasafe">
 			</div>
-			<div>
+			<div class="project-name>
 				<p class="application-name">aka<h3 class="safe-title">SAFE</h3></p>
 				<span class="isdiviser"></span>
 				<p class="safe-slogan">Cloud Security Advisor</p>
