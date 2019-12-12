@@ -19,13 +19,18 @@
             }
         </script>
     <#elseif section = "form">
-        <div>
-            <img class="logo" src="${url.resourcesPath}/img/logo.svg" alt="Akasafe">
-        </div>
+		<div class="box-sologan">
+			<div>
+				<img class="logo" src="${url.resourcesPath}/img/logo.svg" alt="Akasafe">
+			</div>
+			<div>
+				<p class="application-name">aka<h3 class="safe-title">SAFE</h3></p>
+				<span class="isdiviser"></div>
+				<p class="safe-slogan">Cloud Security Advisor</p>
+			</div>
+		</div>
         <div class="box-container">
-            <div>
-                <p class="application-name">akaSAFE Identity Service</p>
-            </div>
+           
         <#if realm.password>
             <div>
                <form id="kc-form-login" class="form" onsubmit="login.disabled = true; return true;" action="${url.loginAction}" method="post">
