@@ -39,16 +39,27 @@ body {
   align-items: center;
   align-content: center;
 }
+p.safe-slogan {
+  clear: both;
+  color: #000;
+  font-size: 15px;
+  padding: 5px 0;
+}
+span.safe-title {
+  color: rgb(0,176,80);
+  font-size: 34px;
+  font-weight: 700;
+}
 .img-box {
   width: 30%;
   float: left;
 }
 .project-name {
-  width: 70%;
+  width: auto;
   float: right;
 }
 span.isdiviser {
-  width: 50%;
+  width: 100%;
   clear: both;
   float: left;
   display: flex;
@@ -57,7 +68,6 @@ span.isdiviser {
 }
 .login-content .box .box-container {
   width:100%;
-  padding-left: 32px;
 }
 .login-content .box .logo {
   display: block;
