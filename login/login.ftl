@@ -25,7 +25,7 @@
 			</div>
 			<div>
 				<p class="application-name">aka<h3 class="safe-title">SAFE</h3></p>
-				<span class="isdiviser"></div>
+				<span class="isdiviser"></span>
 				<p class="safe-slogan">Cloud Security Advisor</p>
 			</div>
 		</div>
