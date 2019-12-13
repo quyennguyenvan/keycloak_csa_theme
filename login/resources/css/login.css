@@ -25,7 +25,7 @@ body {
   flex-direction:column
 }
 .login-content .box {
-  width: 410px;
+  width: 380px;
   border-radius: 8px;
   background-color: #ffffff;
   /*box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.24), 0 0 2px 0 rgba(0, 0, 0, 0.12);*/
@@ -51,11 +51,11 @@ p.safe-slogan {
 }
 span.safe-title {
   color: rgb(0,176,80);
-  font-size: 34px;
+  font-size: 42px;
   font-weight: 700;
 }
 .img-box {
-  width: 30%;
+  width: 31%;
   float: left;
 }
 .project-name {
@@ -82,12 +82,12 @@ span.isdiviser {
 .login-content .box .application-name {
   /* width: 270px; */
   font-family: Muli;
-  font-size: 24px;
+  font-size: 30px;
   font-weight: 500;
   font-style: normal;
   font-stretch: normal;
   line-height: 0.83;
-  letter-spacing: -0.4px;
+  letter-spacing: 1.6px;
   text-align: left;
   color: #000;
   clear: both;
@@ -102,9 +102,13 @@ div#kc-registration {
   padding-top: 10px;
 }
 .form-group.login-pf-settings {
-  float: left;
+  /* float: left; */
   padding: 0;
   margin-top: 10px;
+  display: flex;
+  flex-wrap: nowrap;
+  flex: 0 0 100%;
+  justify-content: space-between;
 }
 .login-content .box .form {
   margin-left: 32px;
@@ -279,7 +283,7 @@ pre {
     clear: both;
 }
 input#username {
-  width: 100%;
+  width: 90%;
   height: 20px;
   margin-top: 5px;
 }
