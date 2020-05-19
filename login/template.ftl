@@ -17,7 +17,7 @@
 
 	<body>
         <#nested "header">
-        <div class="login-content" style="background-image: url(&quot;${url.resourcesPath}/img/background.jpg&quot;);">
+        <div class="login-content" style="background-image: url(&quot;${url.resourcesPath}/img/background.png&quot;);">
             <div class="box">
         <#if displayMessage && message?has_content>
         <div class="alert alert-${message.type}">
