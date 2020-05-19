@@ -30,8 +30,6 @@
         </#if>
         <#nested "form">
             </div>
-
-    
         </div>
 	</body>
 </html>

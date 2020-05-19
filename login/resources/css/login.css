@@ -311,7 +311,6 @@ input#username {
 }
 .box-image-product {
   width: 40%;
-  background: url(https://s3-ap-southeast-1.amazonaws.com/akasafe.io/ssotheme/img/Artboard+5.png);
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
