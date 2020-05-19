@@ -25,8 +25,6 @@
 			</div>
 			<div class="project-name">
 				<span class="application-name"><span class="safe-title">Welcome back</span></span>
-				<span class="isdiviser"></span>
-				<p class="safe-slogan">Cloud Security Advisor</p>
 			</div>
             <div class="box-container">
             
@@ -64,7 +62,7 @@
                     </form>
                 </div>
         </div>
-        <div class="box-image-product" style="background-image: url(&quot;${url.resourcesPath}/img/Artboard5.png&quot;);>
+        <div class="box-image-product" style="background-image: url(&quot;${url.resourcesPath}/img/Artboard5.png&quot;);">
         </div>
         </#if>
         <#if social.providers??>
