@@ -36,10 +36,11 @@ body {
   display:flex;
 }
 .box-sologan {
-  width: 100%;
+  width: 60%;
   padding: 10px 0;
   margin: 0 auto;
   height: auto;
+  float: left;
   /* display: flex; 
   justify-content: center;
   align-items: center;
@@ -309,9 +310,11 @@ input#username {
   align-items: center;
 }
 .box-image-product {
-  width: 600px;
+  width: 40%;
   background: url(https://s3-ap-southeast-1.amazonaws.com/akasafe.io/ssotheme/img/Artboard+5.png);
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
+  display: inline-block;
+  height: 100%;
 }
