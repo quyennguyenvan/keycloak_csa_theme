@@ -29,7 +29,7 @@
             <div class="box-container">
             
             <#if realm.password>
-                <div>
+            <div>
                 <form id="kc-form-login" class="form" onsubmit="login.disabled = true; return true;" action="${url.loginAction}" method="post">
                         <input id="username" class="login-field" placeholder="${msg("username")}" type="text" name="username" tabindex="1">
                         <div>
@@ -61,6 +61,7 @@
                     <input class="submit" type="submit" value="${msg("doLogIn")}" tabindex="3">
                     </form>
                 </div>
+            </div>
         </div>
         <div class="box-image-product" style="background-image: url(&quot;${url.resourcesPath}/img/Artboard5.png&quot;);">
         </div>
