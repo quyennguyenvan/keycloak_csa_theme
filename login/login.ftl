@@ -19,12 +19,15 @@
             }
         </script>
     <#elseif section = "form">
-		<div class="box-sologan">
+		<div class="box-main-container">
 			<div class="img-box">
 				<img class="logo" src="${url.resourcesPath}/img/logo.png" alt="Akasafe">
 			</div>
 			<div class="project-name">
-				<span class="application-name"><span class="safe-title">Welcome back</span></span>
+				<span class="application-name">
+                    <span class="safe-title">Sign In</span>
+                    <span class="safe-sub-title">Use your akaSAFE Account</span>
+                </span>
 			</div>
             <div class="box-container">            
                 <#if realm.password>

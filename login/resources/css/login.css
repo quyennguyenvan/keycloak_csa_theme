@@ -35,7 +35,7 @@ body {
   height: auto;
   display:flex;
 }
-.box-sologan {
+.box-main-container {
   width: 60%;
   padding: 10px 0;
   margin: 0 auto;
@@ -55,9 +55,20 @@ p.safe-slogan {
 }
 span.safe-title {
   color: rgb(0,0,0);
-  font-size: 32px;
+  font-size: 26px;
   font-weight: 700;
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
+  width: 100%;
+  float: left;
+  margin-bottom: 20px;
+}
+span.safe-sub-title {
+  font-size: 15px;
+  font-family: inherit;
+  margin-bottom: 22px;
+  float: left;
+  text-align: center;
+  width: 100%;
 }
 .img-box {
   width: 100%;
@@ -85,7 +96,6 @@ span.isdiviser {
   width:130px;
 }
 .login-content .box .application-name {
-  /* width: 270px; */
   font-family: Muli;
   font-size: 30px;
   font-weight: 500;
@@ -100,8 +110,9 @@ span.isdiviser {
   padding: 10px 0;
   width: 100%;
   margin: 0 auto;
-  display: flex;
-  justify-content: center;
+  /* display: flex; */
+  /* justify-content: center; */
+  text-align: center;
 }
 div#kc-registration {
   display: flex;
@@ -202,6 +213,14 @@ div#kc-registration {
   color: #33a144;
   text-decoration: wavy;
 }
+.alert.alert-error {
+  position: absolute;
+  top: 315px;
+  /* width: 100%; */
+  text-align: left;
+  margin: 0 auto;
+  padding: 0;
+}
 .login-content .box .copyright {
   min-width: 100%;
   text-align: center;
@@ -215,7 +234,7 @@ img#vi:hover{
 	cursor:pointer;
 }
 .message-text {
-  width: 322px;
+  width: auto;
   height: 60px;
   opacity: 0.87;
   font-family: Muli;
@@ -230,7 +249,7 @@ img#vi:hover{
   border: 0px;
   position: relative;
   top: 210px;
-  left: 64px;
+  left: 35px;
   display: inline-flex;
   align-items: center;
 }
