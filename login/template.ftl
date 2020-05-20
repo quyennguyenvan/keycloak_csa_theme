@@ -29,9 +29,9 @@
                 </div>
             </#if>
         <#nested "form">
-            </div>
-            <div class="footer">
+        <div class="footer">
                 <p class="copyright">&copy; ${msg("copyright", "${.now?string('yyyy')}")}</p>
+            </div>
             </div>
         </div>
 	</body>
