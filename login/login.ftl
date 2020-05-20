@@ -68,9 +68,7 @@
         
             <div class="box-image-product" style="background-image: url(&quot;${url.resourcesPath}/img/Artboard5.png&quot;); heigh:100%; width:40%;">
             </div>
-            <div class="footer">
-                <p class="copyright">&copy; ${msg("copyright", "${.now?string('yyyy')}")}</p>
-            </div>
+
         </div>
         </#if>
         <#if social.providers??>
