@@ -61,6 +61,22 @@
                         </form>
                     </div>
                 </div>
+                <#if social.providers??>
+                    <div class="socical-intergration">
+                        <div class="extends-sign-in">
+                            <div class="strike-line">
+                                <div class="left-strike"></div>
+                                <div class="middle-strike">OR</div>
+                                <div class="right-strike"></div>
+                            </div>
+                        </div>
+                        <div id="social-providers">
+                            <#list social.providers as p>
+                            <input class="social-link-style" type="button" onclick="location.href='${p.loginUrl}';" value="${p.displayName}"/>
+                            </#list>
+                        </div>
+                    </div>
+                </#if>
             </div>
         
             <div class="box-image-product" style="background-image: url(&quot;${url.resourcesPath}/img/Artboard5.png&quot;); heigh:100%; width:40%;">
@@ -70,14 +86,7 @@
             </div>
         </div>
         </#if>
-        <#if social.providers??>
-            <p class="para">${msg("selectAlternative")}</p>
-            <div id="social-providers">
-                <#list social.providers as p>
-                <input class="social-link-style" type="button" onclick="location.href='${p.loginUrl}';" value="${p.displayName}"/>
-                </#list>
-            </div>
-        </#if>
+        
         <#if realm.password && realm.registrationAllowed && !usernameEditDisabled??>
             <div id="kc-registration">
                 <span>${msg("noAccount")} <a tabindex="6" href="${url.registrationUrl}">${msg("doRegister")}</a></span>

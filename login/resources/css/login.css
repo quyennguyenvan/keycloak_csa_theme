@@ -250,10 +250,10 @@ img#vi:hover{
 }
 
 .login-content .box .social-link-style {
-  width: 90%;
+  width: calc(100%/2);
   height: 36px;
   border-radius: 2px;
-  background-color: var(--white);
+  background-color: #33a144;
   font-family: Muli;
   font-size: 14px;
   font-weight: bold;
@@ -262,9 +262,9 @@ img#vi:hover{
   line-height: normal;
   letter-spacing: normal;
   text-align: center;
-  color: #ff9800;
+  color: #ffffff;
   border-style: solid;
-  border-color: #ff9800;
+  border-color: #33a144;
   margin-top: 0px;
   margin-left: 30px;
   margin-bottom: 10px;
@@ -275,7 +275,13 @@ img#vi:hover{
   font-size: 14px;
   margin-left: 30px;
 }
-
+.socical-intergration #social-providers{
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  align-content: center;
+  align-items: center;
+}
 pre {
   position: absolute;
   top: 26%;
@@ -316,4 +322,28 @@ input#username {
   background-repeat: no-repeat;
   display: inline-block;
   height: 100%;
+}
+.extends-sign-in{
+
+}
+.extends-sign-in .strike-line {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0;
+  padding: 0 10px 0 10px;
+}
+.extends-sign-in .strike-line .left-strike, .strike-line .right-strike {
+  width: 45%;
+  height: 1px;
+  border-top: 1px solid #33a144;
+  margin: 1em 0;
+  padding: 0;
+}
+.extends-sign-in .strike-line .left-strike, .strike-line .right-strike {
+  width: 45%;
+  height: 1px;
+  border-top: 1px solid #33a144;
+  margin: 1em 0;
+  padding: 0;
 }
